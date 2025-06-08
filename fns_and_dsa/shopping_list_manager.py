@@ -3,7 +3,7 @@
 shopping_list = []
 
 def display_menu():
-    print("\n=== Shopping List Menu ===")
+    print(f"Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View shopping list")
@@ -32,7 +32,7 @@ def view_list():
 
 while True:
     display_menu()
-    choice = input("Choose anoption (1-4): ").strip()
+    choice = input("Choose an option (1-4): ").strip()
 
     if choice == '1':
         add_item()
