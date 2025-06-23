@@ -2,8 +2,8 @@
 def main():
     # Prompt for user input
     Task = input("Enter your task: ")
-    Priority = input("Enter the task’s priority (high/medium/low): ").lower()
-    Time_bound = input("Is it time-bound? (yes or no): ").lower()
+    Priority = input(Priority (high/medium/low): ").lower()
+    Time_bound = input("Is it time-bound? (yes/no): ").lower()
 
     # Generate a reminder based on priority using match-case
     match priority:
