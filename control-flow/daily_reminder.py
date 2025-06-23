@@ -21,7 +21,7 @@ def main():
         reminder += " This is a time-sensitive task that requires immediate attention today!"
 
     # Print the customized reminder
-    print(f"\nReminder:")
+    print(f"Reminder: ")
     print(reminder)
 
 if __name__ == "__main__":
