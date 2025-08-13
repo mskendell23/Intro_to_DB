@@ -1,3 +1,5 @@
+-- Full description of the table Books
+
 SELECT 
     COLUMN_NAME,
     COLUMN_TYPE,

@@ -1,5 +1,5 @@
 """
-Script to create the 'alx_book_store' database in MySQL server.
+Create the 'alx_book_store' database in MySQL server.
 """
 
 import mysql.connector
@@ -8,11 +8,12 @@ from mysql.connector import Error
 def create_database():
     connection = None
     try:
-        # Connect to MySQL server (adjust user/password/host as needed)
+        # Connect to MySQL server
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='your_password_here'
+            password='Kendell23Server*',
+            ssl_disabled=True
         )
 
         if connection.is_connected():
